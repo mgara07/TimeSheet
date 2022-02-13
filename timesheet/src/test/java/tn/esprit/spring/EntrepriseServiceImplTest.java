@@ -19,13 +19,13 @@ import tn.esprit.spring.services.IEntrepriseService;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @Slf4j
-public class ControllerEntrepriseImplTest {
+public class EntrepriseServiceImplTest {
 	@Autowired
 	IEntrepriseService entrepriseService;
 	
 	@Test
 	public void testAddEntreprise() {
-		log.info("********************************Start Method Test ******************************************************");
+		log.info("********************************Start Method Test Add Entreprise ******************************************************");
 	Entreprise e = new Entreprise();
 	e.setName("Vermeg");
 	e.setRaisonSocial("123");
